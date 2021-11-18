@@ -14,6 +14,16 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 
+.events h3{
+  font-family: "Hurricane";
+  font-size: 30pt;
+}
+
+.footer img{
+  height: 75%;
+  max-height: 75%;
+}
+
 .footer h4{
   color: whitesmoke;
   font-size: 15pt;
@@ -45,6 +55,7 @@
   float: right;
 }
 
+
 .booking li{
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -65,6 +76,7 @@
 
 
 .booking h3{
+  color:#E27046 ;
   font-size: 50px;
   font-family:"hurricane" ;
 }
@@ -77,6 +89,7 @@
 }
 
 .booking h2{
+  margin-top: -35px;
   color: #E27046;
   font-size: 100px;
   text-align: center;
@@ -95,6 +108,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  align-content: center;
   overflow: hidden;
   background-color: #3C8A8B;
 }
@@ -108,7 +122,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 16px;
   text-decoration: none;
 }
 
@@ -137,8 +151,10 @@ li a:hover {
 
 .features img{
   background-color: #F5D6AD;
-  align-content: center;
-  padding-left: 65px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-left: 65px;*/
 }
 
 .events {
@@ -146,13 +162,21 @@ li a:hover {
   background-image: url("../img/Events.png");
 }
 
+.hero{
+  padding: 0;
+  margin: 0;
+}
+
 .hero-image {
   text-align: center;
   background-image: url("../img/Hero.jpg");
-  background-size: full;
+  background-size: cover;
   height: 650px;
   background-position: center;
   background-repeat: no-repeat;
+  /*width: 100vw;
+  padding: 0;
+  margin: 0;*/
 }
 
 
@@ -570,7 +594,7 @@ textarea {
 
 @media print, screen and (min-width: 64em) {
   .grid-x > .large-auto {
-    padding: 25px;
+    padding: 35px;
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 0px;
         -ms-flex: 1 1 0px;
@@ -2454,7 +2478,9 @@ li {
   font-size: inherit; }
 
 ul {
-  margin-left: 1.25rem;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-left: 0rem;
   list-style-type: disc; }
 
 ol {
@@ -5239,7 +5265,7 @@ html.is-reveal-open {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   border-radius: 0; }
   thead,
   tbody,
